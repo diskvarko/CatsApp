@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+    <ImageView
+        android:id="@+id/image_cat"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:contentDescription="cat"
+        tools:srcCompat="@tools:sample/avatars[14]" />
+
+    <LinearLayout
+        android:layout_marginTop="37dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/like_button"
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_gravity="end"
+            android:background="@drawable/ic_baseline_favorite_border_24"
+            android:gravity="top" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/ic_baseline_save_alt_24"
+            android:gravity="bottom" />
+    </LinearLayout>
+
+
+</FrameLayout>
